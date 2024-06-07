@@ -133,3 +133,29 @@ h1 {
 .linktree {
     margin-top: 30px;
 }
+
+.rotating-image{
+    transition: all 1.01s;
+    transform: scale(1.06);
+    animation: rotate 30s linear infinite;
+}
+
+/* .rotating-image{
+    transition: all 1.01s;
+} */
+
+/* .rotating-image:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+    animation: rotate 10s linear infinite;
+} */
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
