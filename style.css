@@ -63,6 +63,25 @@ header {
     transition: all 1.01s;
 }
 
+.care-button {
+    width: 100%;
+    background-color: rgb(47, 59, 75);
+    margin: 10px;
+    border-radius: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    padding: 5%;
+    color: white;
+    text-align: center;
+}
+
+
+.care-button:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 5px rgb(0, 0, 0));
+}
 .tile:hover {
     transform: scale(1.02);
     filter: drop-shadow(0 0 5px rgb(0, 0, 0));
